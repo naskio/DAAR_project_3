@@ -1,0 +1,35 @@
+# django
+Django==3.1.4
+sqlparse==0.4.1
+asgiref==3.3.1
+pytz==2020.4
+# env config
+django-environ==0.4.5
+# production server
+gunicorn
+psycopg2-binary
+whitenoise
+Pillow
+# database
+dj-database-url
+# logging
+django-debug-toolbar
+# API
+djangorestframework==3.12.2
+django-cors-headers
+# documentation
+drf-yasg
+drf-yasg[validation]
+# Admin Panel
+git+https://github.com/slavaromanov/django-jet@migrate-to-django-3
+google-api-python-client==1.4.1
+# libs
+requests
+# test coverage
+coverage
+# Elasticsearch 7.x (clients)
+elasticsearch>=7.0.0,<8.0.0 #low level
+elasticsearch-dsl #high level
+
+
+
