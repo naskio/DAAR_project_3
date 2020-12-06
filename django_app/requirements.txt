@@ -9,14 +9,15 @@ django-environ==0.4.5
 gunicorn
 psycopg2-binary
 whitenoise
-Pillow
+Pillow~=8.0.1
 # database
 dj-database-url
 # logging
-django-debug-toolbar
+django-debug-toolbar~=3.2
 # API
 djangorestframework==3.12.2
 django-cors-headers
+django-cleanup
 # documentation
 drf-yasg
 drf-yasg[validation]
@@ -28,8 +29,23 @@ requests
 # test coverage
 coverage
 # Elasticsearch 7.x (clients)
-elasticsearch>=7.0.0,<8.0.0 #low level
-elasticsearch-dsl #high level
+elasticsearch>=7.10.0,<8.0.0 # low level python client
+elasticsearch-dsl # high level python client
+django-elasticsearch-dsl # django client
+# detect language
+langdetect
+langid
+# NLP
+resume-parser
+spacy==2.3.4
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz#egg=en_core_web_sm
+nltk==3.5
+# Parsers
+python-docx #docs
+PyPDF2~=1.26.0
+PyMuPDF
+pytesseract~=0.3.6
+textract
 
 
 
