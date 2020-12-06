@@ -118,7 +118,7 @@ We start by configuring the environment:
     ```
 1. then create the index in ElasticSearch using the command
     ```shell script
-    docker-compose run web python manage.py search_index --rebuild
+    yes y | docker-compose run web python manage.py search_index --rebuild
     ```
 1. Load the dataset (for the demo)
     ```shell script
