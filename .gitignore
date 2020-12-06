@@ -9,3 +9,4 @@ postgres_data/
 elasticsearch_data/
 
 *.tmp.*
+.env
