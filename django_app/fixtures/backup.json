@@ -1,0 +1,137 @@
+[
+  {
+    "model": "cv.resume",
+    "pk": 1,
+    "fields": {
+      "first_name": "Kevin",
+      "last_name": "Paterson",
+      "attached_file": "CVs/cv1_8c3JDou.jpg"
+    }
+  },
+  {
+    "model": "cv.resume",
+    "pk": 2,
+    "fields": {
+      "first_name": "Tabitha",
+      "last_name": "Hirvanen",
+      "attached_file": "CVs/cv2.png"
+    }
+  },
+  {
+    "model": "cv.resume",
+    "pk": 3,
+    "fields": {
+      "first_name": "Fares",
+      "last_name": "Ben hamouda",
+      "attached_file": "CVs/cv3.jpg"
+    }
+  },
+  {
+    "model": "cv.resume",
+    "pk": 4,
+    "fields": {
+      "first_name": "Dan",
+      "last_name": "Clark",
+      "attached_file": "CVs/cv4.jpg"
+    }
+  },
+  {
+    "model": "cv.resume",
+    "pk": 5,
+    "fields": {
+      "first_name": "Patricia",
+      "last_name": "Shaw",
+      "attached_file": "CVs/cv5.png"
+    }
+  },
+  {
+    "model": "cv.resume",
+    "pk": 6,
+    "fields": {
+      "first_name": "Vincent",
+      "last_name": "Richard",
+      "attached_file": "CVs/cv6.pdf"
+    }
+  },
+  {
+    "model": "cv.resume",
+    "pk": 7,
+    "fields": {
+      "first_name": "Michael",
+      "last_name": "Harrison",
+      "attached_file": "CVs/cv7.pdf"
+    }
+  },
+  {
+    "model": "cv.resume",
+    "pk": 8,
+    "fields": {
+      "first_name": "Salma",
+      "last_name": "Khan",
+      "attached_file": "CVs/cv8.pdf"
+    }
+  },
+  {
+    "model": "cv.resume",
+    "pk": 9,
+    "fields": {
+      "first_name": "Kurt",
+      "last_name": "Revis",
+      "attached_file": "CVs/cv9.pdf"
+    }
+  },
+  {
+    "model": "cv.resume",
+    "pk": 10,
+    "fields": {
+      "first_name": "Joshua D",
+      "last_name": "Buermann",
+      "attached_file": "CVs/cv10.pdf"
+    }
+  },
+  {
+    "model": "cv.resume",
+    "pk": 11,
+    "fields": {
+      "first_name": "Matthew",
+      "last_name": "Eliot",
+      "attached_file": "CVs/cv11.docx"
+    }
+  },
+  {
+    "model": "cv.resume",
+    "pk": 12,
+    "fields": {
+      "first_name": "Matthew",
+      "last_name": "Eliot",
+      "attached_file": "CVs/cv12.docx"
+    }
+  },
+  {
+    "model": "cv.resume",
+    "pk": 13,
+    "fields": {
+      "first_name": "Brandon",
+      "last_name": "Wyant",
+      "attached_file": "CVs/cv13.docx"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$216000$CzxHN2y2Y84D$CMvyiszCtyFuyN8jzAYG6dOe6OrNCNm6jJY6fhXVHFA=",
+      "last_login": "2020-12-07T07:34:27.047Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "Admin",
+      "last_name": "ADMIN",
+      "email": "admin@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2020-12-06T07:32:34.288Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]
