@@ -40,7 +40,7 @@ perfect candidate by enabling search feature over millions of CVs in different f
 
 These are a shortcuts to help you access the Application quickly.
 
-- [Admin Panel](http://localhost:8000/admin/cv/resume/)
+- [Admin Panel](http://localhost:8000/admin/cv/resume/) (username: admin, password: admin)
 - [Upload CV Page](http://localhost:8000/)
 - [REST APIs (Swagger Docs)](http://localhost:8000/api/swagger/)
 - [REST APIs](http://localhost:8000/api/)
@@ -182,7 +182,7 @@ We provide also a command that will delete the index and re-create it, then re-b
 existing CVs).
 
 ```bash
-docker-compose run web python manage.py search_index --rebuild
+yes y | docker-compose run web python manage.py search_index --rebuild
 ```
 
 ### Related Code
