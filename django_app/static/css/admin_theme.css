@@ -1,0 +1,18 @@
+.status.status-success {
+    color: green;
+}
+
+.status.status-error {
+    color: red;
+}
+
+.status.status-warning {
+    color: orange;
+}
+
+.status.status-info {
+}
+
+.text-center {
+    text-align: center;
+}

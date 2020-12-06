@@ -1,4 +1,4 @@
-"""CV_BANK URL Configuration
+"""CV_CATCHER URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.1/topics/http/urls/
@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf.urls.static import static
 from .settings import DEBUG, MEDIA_ROOT, STATIC_ROOT, STATIC_URL, MEDIA_URL
+from apps.cv import views
 import debug_toolbar
 
 urlpatterns = [
@@ -25,11 +26,12 @@ urlpatterns = [
     path('jet/', include('jet.urls', 'jet')),
     path('jet/dashboard/', include('jet.dashboard.urls', 'jet-dashboard')),
     path('i18n/', include('django.conf.urls.i18n')),
-    # API
-    # path('api/v1/', include('apps.main.urls')),
     # admin
-    path('', admin.site.urls),
-    # path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls),
+    # API
+    path('api/', include('apps.cv.urls')),
+    # index
+    path('', views.resume_view, name='resume-add'),
 ]
 
 # Static & Media

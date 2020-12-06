@@ -1,0 +1,18 @@
+{% extends "admin/login.html" %}
+{% load static %}
+
+{% block content %}
+    <div class="row" id="content-header">
+        <div class="text-center">
+            <h2>Admin Panel</h2>
+            <img alt="CV Catcher"
+                 src="{% static "logo/logo_text.png" %}"
+                 width="160" height="90"
+                 style="object-fit: contain">
+        </div>
+    </div>
+    <ul class="messagelist">
+        <li class="info">for the demo use: (<strong>admin</strong>,<strong>admin</strong>)</li>
+    </ul>
+    {{ block.super }}
+{% endblock %}
