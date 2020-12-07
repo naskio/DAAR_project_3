@@ -2,7 +2,7 @@
 
 ![Alt text](django_app/static/logo/logo_text.png?raw=true "CV Catcher")
 
-Indexing CVs in Elasticsearch and enabling search feature.
+Indexing CVs (PDF, Word, PNG and JPEG) in Elasticsearch and enabling search feature.
 
 * [Introduction](#Introduction)
 
@@ -21,7 +21,7 @@ Indexing CVs in Elasticsearch and enabling search feature.
 * [Elasticsearch](#elasticsearch)
     * [Synchronization with the Database](#synchronization-with-the-database)
     * [Re-building the index](#re-building-the-index)
-    * [Related Coded](#related-code)
+    * [Related Code](#related-code)
 * [User Interfaces](#user-interfaces)
 
 ## Introduction
@@ -32,7 +32,7 @@ perfect candidate by enabling search feature over millions of CVs in different f
 ### Features
 
 - Admin Panel to manage CVs.
-- Search CVs throw the Admin Panel.
+- Index and Search CVs (formats: PDF, Docx, PNG, JPEG, ...) throw the Admin Panel.
 - UI for candidates to upload their CV without log-in.
 - REST APIs that can be used with other clients.
 
@@ -84,22 +84,19 @@ The pre-loaded dataset contains 13 CVs with different formats (PDF, Word, PNG, J
 ## Getting started
 
 These instructions will get you a copy of the project up and running on your local machine or in a production server.
+(Start by )
 
 ### Requirements
 
 To make the system independent of the environment and make it easier for you to run it, we are using Docker.
 
-1. [Docker](https://www.docker.com) (Docker engine 19+ with Docker compose).
+1. [Docker or Docker Desktop](https://www.docker.com) (Docker engine 19+ with Docker compose).
 
 ### Configure
 
-We start by configuring the environment:
+After cloning the repository, we start by configuring the environment:
 
-1. Create an ```.env``` in the root folder (same folder as ```docker-compose.yaml``` file).
-    ```shell script
-    touch .env
-    ```
-1. Copy the content of ```.env_example``` to ```.env``` file.
+1. Rename ```.env_example``` to ```.env``` or create an ```.env``` file in the root folder (same folder as ```docker-compose.yaml``` file) and copy the content of ```.env_example``` to ```.env``` file.
 1. Optionally Customize the variables according to your preferences.
 
 ### Build
