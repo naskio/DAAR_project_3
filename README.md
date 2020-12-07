@@ -23,6 +23,7 @@ Indexing CVs (PDF, Word, PNG and JPEG) in Elasticsearch and enabling search feat
     * [Re-building the index](#re-building-the-index)
     * [Related Code](#related-code)
 * [User Interfaces](#user-interfaces)
+* [About](#about)
 
 ## Introduction
 
@@ -203,6 +204,7 @@ We can upload the CV throw the index page, or throw the Admin Panel
 ![Alt text](UIs/search_res.png?raw=true "Search")
 
 ## About
+Binome: Mehdi Nassim KHODJA, Qiwei XIAN
 
 Developed by students at Sorbonne University, just for learning purposes (part of DAAR lectures). Using Python with
 Django, ElasticSearch and Docker.
